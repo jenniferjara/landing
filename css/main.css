@@ -1,0 +1,76 @@
+/* Tu CSS va aqui */
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: Open Sans;
+}
+
+/*header*/
+header, footer {
+	color: #808080;
+	padding: 1% 0%;
+}
+.logo {
+	max-width: 30%;
+}
+.menu {
+	float: right;
+}
+.menu a {
+	color: #808080;
+	margin-left: 3%;
+	text-decoration: none;
+}
+a:hover {
+	color: orange;
+}
+/*info*/
+.info {
+	background-color: #808080;
+	color: #fff;
+	padding: 5% 0%;
+}
+.title {
+	padding-right: 20%;
+}
+.title h1 {
+	font-size: 3em;
+	margin-bottom: 6%;
+}
+
+/*formulario*/
+.cuadro {
+ 	background-color: #9A9A9A;
+ 	border-radius: 15px;
+ 	padding: 8% 6%;
+ 	text-align: center;
+ 	width: 100%; 	
+} 
+.formu input {
+	padding: 2%;
+	margin-top: 2%;
+	width: 100%;
+}
+#boton {
+	background-color: #3EB0F7;
+	border: #3EB0F7;
+	color: #fff;
+	cursor: pointer;
+	padding: 2% 0%;
+}
+
+/*Media Query*/
+
+@media (max-width: 535px) {
+	.logo {
+		max-width: 50%;
+	}
+	.title {
+		padding-right: 0%;
+	}
+	.title p {
+		padding-bottom: 10%;
+	}
+
+}
