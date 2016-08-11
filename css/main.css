@@ -12,7 +12,7 @@ header, footer {
 	padding: 1% 0%;
 }
 .logo {
-	max-width: 30%;
+	width: 30%;
 }
 .menu {
 	float: right;
@@ -32,11 +32,15 @@ a:hover {
 	padding: 5% 0%;
 }
 .title {
-	padding-right: 20%;
+	padding-right: 11%;
 }
 .title h1 {
 	font-size: 3em;
 	margin-bottom: 6%;
+}
+.title p {
+	text-align: justify;
+	padding-bottom: 10%;
 }
 
 /*formulario*/
@@ -66,11 +70,4 @@ a:hover {
 	.logo {
 		max-width: 50%;
 	}
-	.title {
-		padding-right: 0%;
-	}
-	.title p {
-		padding-bottom: 10%;
-	}
-
 }
